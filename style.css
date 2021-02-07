@@ -1,0 +1,17 @@
+.containerDiv {
+    margin: auto;
+    align-items: center; 
+}
+
+
+#input {
+    width: 450px;
+    height: 27px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+#searchBtn {
+    height: 46px;
+    width: 94px;
+}
