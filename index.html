@@ -9,12 +9,15 @@
 </head>
 <body>
     <div class="containerDiv">
-        <input id="input" type="text" placeholder="Search for Meal">
-        <button id="searchBtn">Search</button>
+        <input id="searchFlied" type="text" placeholder="Search for Meal">
+        <button onclick="searchFood()" class="searchBtn">Search</button>
     </div>
-    <div id="caegories"></div>
+    <h1 id="error-message"></h1>
 
+    <div id="categoriesDiv"></div>
 
+    <div id="foodDetailsDiv"></div>
+    
     <script src="app.js"></script>    
 </body>
 </html>

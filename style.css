@@ -1,17 +1,46 @@
 .containerDiv {
-    margin: auto;
+    margin: 0 auto;
     align-items: center; 
 }
-
-
-#input {
+.categories{
+    background-color: aquamarine;
+    width: 200px;
+    height: 250px;
+    margin: 5px;
+    text-align: center;
+}
+#categoriesDiv {
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    align-items: center;
+    height: 500px;
+    width: 830px;
+}
+#categoriesDiv img {
+    height: 150px;
+    width: 180px;
+}
+#searchFlied {
     width: 450px;
     height: 27px;
     padding: 10px;
     border-radius: 10px;
-
 }
-#searchBtn {
+.searchBtn {
     height: 46px;
     width: 94px;
 }
+ #foodDetailsDiv {
+    float: right;
+    margin-top: -500px;
+    height: 100px;
+    width: 285px;
+} 
+#foodDetailsDiv img {
+    height: 200px;
+    width: 300px;
+}
+#display-message {
+    display: none;
+}
+
